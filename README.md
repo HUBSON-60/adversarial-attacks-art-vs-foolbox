@@ -19,4 +19,6 @@ The experiments focus on evaluating adversarial attacks using the MNIST dataset 
 - Analyze differences between frameworks in terms of usability, configuration, and effectiveness
 - Evaluate the suitability of both tools for adversarial machine learning experiments
 
+---
+
 ## Technologies
