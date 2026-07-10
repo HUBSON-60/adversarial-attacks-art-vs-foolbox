@@ -35,3 +35,23 @@ The experiments focus on evaluating adversarial attacks using the MNIST dataset 
 ---
 
 ## Dataset
+The experiments were conducted using the MNIST handwritten digits dataset.
+
+- Dataset: MNIST
+- Task: Image classification
+- Number of classes: 10
+- Image size: 28x28 pixels
+
+---
+
+## Repository Structure
+```text
+.
+├── thesis/
+│   ├── README.md
+│   └── diploma_thesis.pdf
+├── README.md
+├── LICENSE
+└── .gitignore
+
+##Dataset## Dataset
