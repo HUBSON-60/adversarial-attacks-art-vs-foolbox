@@ -44,15 +44,6 @@ The experiments were conducted using the MNIST handwritten digits dataset.
 
 ---
 
-```text
-## Repository Structure
 
-.
-├── thesis/
-│   ├── README.md
-│   └── diploma_thesis.pdf
-├── README.md
-├── LICENSE
-└── .gitignore
-```md
-##Dataset## Dataset
+---
+
