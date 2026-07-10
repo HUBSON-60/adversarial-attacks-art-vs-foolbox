@@ -8,6 +8,7 @@ This project investigates the robustness of image classification models against 
 - Foolbox
 
 The experiments focus on evaluating adversarial attacks using the MNIST dataset and analyze how different frameworks can be applied for testing model robustness.
+---
 ## Objectives
 
 - Compare IBM Adversarial Robustness Toolbox (ART) and Foolbox for adversarial robustness testing
