@@ -3,6 +3,7 @@ Comparative evaluation of IBM Adversarial Robustness Toolbox (ART) and Foolbox f
 This project was developed as part of a diploma thesis and investigates adversarial attacks on image classification models using IBM ART and Foolbox frameworks conducted on the MNIST dataset.
 ## Project Overview
 This project investigates the robustness of image classification models against adversarial attacks through a comparative analysis of two adversarial machine learning frameworks:
+
 - IBM Adversarial Robustness Toolbox (ART)
 - Foolbox
 
