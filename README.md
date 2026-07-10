@@ -22,3 +22,16 @@ The experiments focus on evaluating adversarial attacks using the MNIST dataset 
 ---
 
 ## Technologies
+
+- Python
+- PyTorch
+- IBM Adversarial Robustness Toolbox (ART)
+- Foolbox
+- NumPy
+- Pandas
+- Matplotlib
+- Jupyter Notebook
+
+---
+
+## Dataset
