@@ -45,5 +45,4 @@ The experiments were conducted using the MNIST handwritten digits dataset.
 ---
 
 
----
 
