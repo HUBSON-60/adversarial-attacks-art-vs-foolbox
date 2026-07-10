@@ -45,8 +45,7 @@ The experiments were conducted using the MNIST handwritten digits dataset.
 ---
 
 ## Repository Structure
-
-```text
+```md
 .
 ├── thesis/
 │   ├── README.md
@@ -54,8 +53,5 @@ The experiments were conducted using the MNIST handwritten digits dataset.
 ├── README.md
 ├── LICENSE
 └── .gitignore
-
-```
-```
-
+```md
 ##Dataset## Dataset
