@@ -1,3 +1,4 @@
+import torch
 import torch.nn as nn
 
 # prosty model CNN (jedna warstwa linearna dla MNIST)
