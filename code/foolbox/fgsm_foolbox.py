@@ -43,11 +43,8 @@ print("images.shape:", images.shape)
 print("labels:", labels)
 
 
-# Wrapper Foolbox
-fmodel = fb.PyTorchModel(model, bounds=(0, 1))
+fmodel = fb.PyTorchModel(model, bounds=(0,1))
 
-
-# Atak FGSM
 attack = fb.attacks.FGSM()
 
 adv_images_list = attack(
@@ -59,22 +56,17 @@ adv_images_list = attack(
 
 adv_images = adv_images_list[0]
 
-
 print("Atak FGSM wykonany!")
 
-
-# Konwersja do numpy
 images_np = images.numpy()
 adv_images_np = adv_images.numpy()
 
-
-# Wizualizacja
-plt.figure(figsize=(10, 2))
+plt.figure(figsize=(10,2))
 
 for i in range(5):
 
-    # Oryginalny obraz
-    plt.subplot(2, 5, i + 1)
+    # Oryginalny
+    plt.subplot(2,5,1+i)
     plt.imshow(images_np[i].squeeze(), cmap="gray")
     plt.axis("off")
 
@@ -82,11 +74,12 @@ for i in range(5):
         plt.title("Oryginalny")
 
 
-    # Obraz po ataku
-    plt.subplot(2, 5, i + 6)
+    # Adversarial
+    plt.subplot(2,5,6+i)
     plt.imshow(adv_images_np[i].squeeze(), cmap="gray")
     plt.axis("off")
 
     if i == 0:
         plt.title("Adversarial")
+
 plt.show()
