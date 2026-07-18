@@ -7,30 +7,21 @@ import matplotlib.pyplot as plt
 
 print("Biblioteki załadowane!")
 
-
 class SimpleMNIST(nn.Module):
     def __init__(self):
         super().__init__()
         self.flatten = nn.Flatten()
-        self.fc = nn.Linear(28 * 28, 10)  # bardzo prosty model
+        self.fc = nn.Linear(28 * 28, 10)  # jedno ukrycie, bardzo prosty model
 
     def forward(self, x):
         x = self.flatten(x)
         return self.fc(x)
 
-
 model = SimpleMNIST()
-model.eval()  # Foolbox wymaga modelu w trybie ewaluacji
-
+model.eval()  # Bardzo ważne! Foolbox wymaga modelu w trybie ewaluacji
 
 transform = transforms.ToTensor()
-
-dataset = datasets.MNIST(
-    root="./data",
-    train=False,
-    download=True,
-    transform=transform
-)
+dataset = datasets.MNIST(root="./data", train=False, download=True, transform=transform)
 
 # Pobranie pierwszych 5 obrazków
 images = torch.stack([dataset[i][0] for i in range(5)])
