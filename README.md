@@ -100,12 +100,17 @@ Detailed experimental analysis is available in the diploma thesis located in the
 │   ├── foolbox/
 │   │   └── fgsm_foolbox.py
 │   └── requirements.txt
+├── results/
+│   ├── README.md
+│   ├── figures/
+│   │   ├── fgsm_examples.png
+│   │   └── accuracy_comparison.png
+│   └── tables/
+│       └── fgsm_results.md
 ├── thesis/
 │   ├── README.md
 │   └── diploma_thesis.pdf
 ├── README.md
 ├── LICENSE
 └── .gitignore
-```
-
 
