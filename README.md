@@ -66,6 +66,22 @@ pip install -r code/requirements.txt
 
 ---
 
+## Usage
+
+Run IBM ART FGSM attack:
+
+```bash
+python code/art/fgsm_art.py
+```
+
+Run Foolbox FGSM attack:
+
+```bash
+python code/foolbox/fgsm_foolbox.py
+```
+
+---
+
 ## Repository Structure
 
 ```text
