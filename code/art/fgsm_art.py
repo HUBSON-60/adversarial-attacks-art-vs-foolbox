@@ -22,4 +22,11 @@ y_test_np = y_test.numpy()
 from art.estimators.classification import PyTorchClassifier
 classifier = PyTorchClassifier(model=model, loss=loss_fn, optimizer=optimizer,
     				  input_shape=(1, 28, 28), nb_classes=10)
- 
+
+
+from art.attacks.evasion import FastGradientMethod
+
+attack = FastGradientMethod(estimator=classifier, eps=0.2)
+x_test_adv = attack.generate(x=x_test_np)
+
+print("FGSM wykonany, x_test_adv shape:", x_test_adv.shape)
