@@ -62,9 +62,9 @@ Install dependencies using:
 
 ```bash
 pip install -r code/requirements.txt
+```markdown
 
 ---
-
 
 ## Repository Structure
 
