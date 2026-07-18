@@ -99,9 +99,8 @@ The experiments evaluated adversarial attacks on MNIST image classification mode
 ### Contents
 
 This directory contains:
-- visualizations of adversarial examples,
-- accuracy comparison results,
-- experiment tables.
+- adversarial example visualizations in the `figures/` directory,
+- experimental results table in the `tables/` directory.
 
 Detailed experimental analysis is available in the diploma thesis located in the `thesis/` directory.
 
