@@ -86,8 +86,6 @@ python code/foolbox/fgsm_foolbox.py
 
 The experiments evaluated adversarial attacks on MNIST image classification models using IBM Adversarial Robustness Toolbox (ART) and Foolbox.
 
-The experiments evaluated adversarial attacks on MNIST image classification models using IBM Adversarial Robustness Toolbox (ART) and Foolbox.
-
 ### Implemented attack
 
 - Fast Gradient Sign Method (FGSM)
