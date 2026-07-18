@@ -44,6 +44,27 @@ The experiments were conducted using the MNIST handwritten digits dataset.
 
 ---
 
+## Installation
+The project was developed using Python 3.10.
+
+Required libraries:
+
+- PyTorch
+- torchvision
+- IBM Adversarial Robustness Toolbox (ART)
+- Foolbox
+- NumPy
+- Pandas
+- Matplotlib
+- Jupyter Notebook
+
+Install dependencies using:
+
+```bash
+pip install -r code/requirements.txt
+
+---
+
 ## Repository Structure
 
 ```text
