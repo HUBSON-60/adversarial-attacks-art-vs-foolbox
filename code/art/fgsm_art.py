@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 
 # prosty model CNN (jedna warstwa linearna dla MNIST)
-model = nn. Sequential(
+model = nn.Sequential(
          nn.Flatten(),
 
          nn.Linear(28*28, 10)
