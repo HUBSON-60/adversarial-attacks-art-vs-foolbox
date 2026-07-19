@@ -35,7 +35,7 @@ print("Obrazki i etykiety wczytane!")
 print("images.shape:", images.shape)
 print("labels:", labels)
 
-fmodel = fb. PyTorchModel (model, bounds=(0,1))
+fmodel = fb.PyTorchModel(model, bounds=(0,1))
 
 attack fb.attacks.FGSM() 
 adv_images_list = attack(fmodel, images, labels, epsilons=0.3) # zwraca listę
