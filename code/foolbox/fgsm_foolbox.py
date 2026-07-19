@@ -37,7 +37,7 @@ print("labels:", labels)
 
 fmodel = fb.PyTorchModel(model, bounds=(0,1))
 
-attack fb.attacks.FGSM() 
+attack = fb.attacks.FGSM() 
 adv_images_list = attack(fmodel, images, labels, epsilons=0.3) # zwraca listę
 adv_images = adv_images_list[0]	# wybieramy pierwszy (i jedyny) epsilon
 
