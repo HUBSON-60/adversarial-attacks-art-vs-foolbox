@@ -108,8 +108,8 @@ Detailed experimental analysis is available in the diploma thesis located in the
 │   └── tables/
 │       └── fgsm_results.md
 ├── thesis/
-│   ├── README.md
-│   └── diploma_thesis.pdf
+│   └── README.md
+│   
 ├── README.md
 ├── LICENSE
 └── .gitignore
