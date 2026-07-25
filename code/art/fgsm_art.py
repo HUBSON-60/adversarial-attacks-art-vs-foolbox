@@ -60,7 +60,7 @@ classifier = PyTorchClassifier(
 # Atak FGSM
 attack = FastGradientMethod(
     estimator=classifier,
-    eps=0.2
+    eps=0.3
 )
 
 
