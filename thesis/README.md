@@ -1,3 +1,5 @@
-# Thesis
+# Diploma Thesis
 
-This directory contains the diploma thesis in PDF format.
+This directory contains information related to the diploma thesis associated with this project.
+
+The full thesis document is not included in this repository.
