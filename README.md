@@ -92,6 +92,18 @@ The repository contains the implementation developed as part of the diploma thes
 
 ---
 
+## Example Results
+
+Visualization of generated adversarial examples after applying the FGSM attack:
+
+![FGSM adversarial examples](results/figures/fgsm_examples.png)
+
+Accuracy comparison before and after applying FGSM attack using IBM ART and Foolbox:
+
+![Accuracy comparison](results/figures/accuracy_comparison.png)
+
+---
+
 ## Limitations
 
 The experiments included selected adversarial attack scenarios, with the main implementation focusing on FGSM attacks using the MNIST dataset.
