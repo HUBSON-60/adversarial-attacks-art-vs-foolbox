@@ -67,7 +67,9 @@ pip install -r code/requirements.txt
 ---
 
 ## Usage
+The experiments were developed and tested using Jupyter Notebook.
 
+Scripts can also be executed directly:
 Run IBM ART FGSM attack:
 
 ```bash
