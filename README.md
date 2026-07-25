@@ -86,7 +86,7 @@ python code/foolbox/fgsm_foolbox.py
 
 Experimental results, including FGSM adversarial examples, accuracy comparison, and result tables are available in the `results/` directory.
 
-Detailed experimental analysis is available in the diploma thesis located in the `thesis/` directory.
+The repository contains the implementation and experimental results developed as part of the diploma thesis. The full thesis document is not included in this repository.
 
 ---
 
