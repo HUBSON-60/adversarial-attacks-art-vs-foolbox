@@ -93,6 +93,16 @@ The repository contains the implementation and experimental results developed as
 
 ---
 
+## Limitations
+
+The experiments focus on FGSM adversarial attacks using the MNIST dataset.
+
+The repository presents an implementation and comparison of IBM Adversarial Robustness Toolbox (ART) and Foolbox for adversarial robustness evaluation.
+
+The experiments are limited to selected attack scenarios and a single image classification dataset. The results should be interpreted within the scope of the implemented test environment.
+
+---
+
 ## Repository Structure
 
 ```text
