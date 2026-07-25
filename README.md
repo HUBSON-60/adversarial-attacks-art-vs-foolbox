@@ -87,7 +87,7 @@ python code/foolbox/fgsm_foolbox.py
 
 ## Results
 
-Experimental results, including FGSM adversarial examples, accuracy comparison, and result tables generated during experiments, are available in the results/ directory.
+Experimental results, including FGSM adversarial examples, accuracy comparison, and result tables generated during experiments, are available in the `results/` directory.
 
 ---
 
