@@ -131,8 +131,7 @@ The results are limited to the implemented experimental environment, selected at
 │   └── tables/
 │       └── fgsm_results.md
 ├── thesis/
-│   └── README.md
-│   
+│   └── README.md   
 ├── README.md
 ├── LICENSE
 └── .gitignore
