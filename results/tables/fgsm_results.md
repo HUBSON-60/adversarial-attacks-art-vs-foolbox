@@ -4,6 +4,6 @@ FGSM attack results showing model performance before and after adversarial attac
 
 | Metric | Value |
 |---|---|
-| Accuracy before attack | 20% |
-| Accuracy after attack | 0% |
-| Attack Success Rate (ASR) | 20% |
+| Accuracy before FGSM attack | 20% |
+| Accuracy after FGSM attack | 0% |
+| Attack Success Rate (ASR) | 100% |
