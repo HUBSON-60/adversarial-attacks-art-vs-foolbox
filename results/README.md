@@ -8,8 +8,9 @@ The experiments evaluated adversarial attacks on MNIST image classification mode
 
 ## Evaluation metrics
 
-- Accuracy before attack
-- Accuracy after attack
+- Accuracy before the attack
+- Accuracy after the attack
+- Attack Success Rate (ASR) 
 
 ## Contents
 
@@ -18,4 +19,4 @@ This directory contains:
 - adversarial example visualizations in the `figures/` directory,
 - experimental results table in the `tables/` directory.
 
-Detailed experimental analysis was performed as part of the diploma thesis. The full thesis document is not included in this repository.
+A detailed analysis of the experimental results was conducted as part of the diploma thesis. The full thesis document is not included in this repository.
