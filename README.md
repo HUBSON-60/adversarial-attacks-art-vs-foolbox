@@ -93,11 +93,9 @@ Experimental results, including FGSM adversarial examples, accuracy comparison, 
 
 ## Presentation
 
-A short presentation summarizing the diploma thesis project is available here:
+A short presentation summarizing the diploma thesis project is available in the `presentation/` directory.
 
-- `presentation/adversarial_attacks_art_vs_foolbox.pdf`
-
-The presentation provides a concise overview of the research objective, adversarial attack methodology, experimental setup, and key results.
+The presentation is provided in both PowerPoint (`.pptx`) and PDF (`.pdf`) formats and provides a concise overview of the research objective, adversarial attack methodology, experimental setup, and key results.
 
 ---
 
