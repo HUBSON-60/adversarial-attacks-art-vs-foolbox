@@ -141,6 +141,8 @@ The results are limited to the implemented experimental environment, selected at
 ├── thesis/
 │   └── README.md
 ├── presentation/
+│   ├── README.md
+│   ├── adversarial_attacks_art_vs_foolbox.pptx
 │   └── adversarial_attacks_art_vs_foolbox.pdf
 ├── README.md
 ├── LICENSE
