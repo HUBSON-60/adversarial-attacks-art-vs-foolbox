@@ -91,6 +91,16 @@ Experimental results, including FGSM adversarial examples, accuracy comparison, 
 
 ---
 
+## Presentation
+
+A short presentation summarizing the diploma thesis project is available here:
+
+- `presentation/adversarial_attacks_art_vs_foolbox.pdf`
+
+The presentation provides a concise overview of the research objective, adversarial attack methodology, experimental setup, and key results.
+
+---
+
 ## Example Results
 
 Visualization of generated adversarial examples after applying the FGSM attack:
@@ -131,7 +141,9 @@ The results are limited to the implemented experimental environment, selected at
 │   └── tables/
 │       └── fgsm_results.md
 ├── thesis/
-│   └── README.md   
+│   └── README.md
+├── presentation/
+│   └── defense_presentation.pdf
 ├── README.md
 ├── LICENSE
 └── .gitignore
