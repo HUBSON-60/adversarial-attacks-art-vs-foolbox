@@ -143,7 +143,7 @@ The results are limited to the implemented experimental environment, selected at
 ├── thesis/
 │   └── README.md
 ├── presentation/
-│   └── defense_presentation.pdf
+│   └── adversarial_attacks_art_vs_foolbox.pdf
 ├── README.md
 ├── LICENSE
 └── .gitignore
