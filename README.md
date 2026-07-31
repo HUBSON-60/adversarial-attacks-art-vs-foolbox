@@ -95,7 +95,7 @@ Experimental results, including FGSM adversarial examples, accuracy comparison, 
 
 A short presentation summarizing the diploma thesis project is available in the `presentation/` directory.
 
-The presentation is provided in both PowerPoint (`.pptx`) and PDF (`.pdf`) formats and provides a concise overview of the research objective, adversarial attack methodology, experimental setup, and key results.
+The presentation is provided in both PDF (`.pdf`) and PowerPoint (`.pptx`) formats and provides a concise overview of the research objective, adversarial attack methodology, experimental setup, and key results.
 
 ---
 
