@@ -101,9 +101,13 @@ The presentation is provided in both PowerPoint (`.pptx`) and PDF (`.pdf`) forma
 
 ## Example Results
 
+### FGSM Adversarial Examples
+
 Visualization of generated adversarial examples after applying the FGSM attack:
 
 ![FGSM adversarial examples](results/figures/fgsm_examples.png)
+
+### Accuracy Comparison
 
 Accuracy comparison before and after applying FGSM attack using IBM ART and Foolbox:
 
@@ -142,8 +146,8 @@ The results are limited to the implemented experimental environment, selected at
 │   └── README.md
 ├── presentation/
 │   ├── README.md
-│   ├── adversarial_attacks_art_vs_foolbox.pptx
-│   └── adversarial_attacks_art_vs_foolbox.pdf
+│   ├── adversarial_attacks_art_vs_foolbox.pdf
+│   └── adversarial_attacks_art_vs_foolbox.pptx
 ├── README.md
 ├── LICENSE
 └── .gitignore
